@@ -1,0 +1,24 @@
+fecha,area,producto,cantidad,unidad,responsable,observacion
+2026-05-18,ganaderia,leche,22,litros,Laura,registro normal
+2026-05-19,ganaderia,leche,25,litros,Laura,alimentacion completa
+2026-05-20,ganaderia,leche,21,litros,Carlos,leve disminucion por lluvia
+2026-05-21,ganaderia,leche,24,litros,Carlos,registro normal
+2026-05-22,ganaderia,leche,27,litros,Laura,mejor produccion de la semana
+2026-05-23,ganaderia,leche,23,litros,Daniel,registro normal
+2026-05-24,ganaderia,leche,20,litros,Daniel,domingo con baja produccion
+2026-05-18,agricultura,maiz,38,kilos,Ana,cosecha parcial
+2026-05-19,agricultura,maiz,42,kilos,Ana,cosecha normal
+2026-05-20,agricultura,maiz,40,kilos,Pedro,cosecha normal
+2026-05-21,agricultura,maiz,45,kilos,Pedro,cosecha alta
+2026-05-22,agricultura,maiz,39,kilos,Ana,cosecha normal
+2026-05-23,agricultura,maiz,44,kilos,Pedro,cosecha alta
+2026-05-24,agricultura,maiz,36,kilos,Ana,cosecha baja
+2026-05-18,avicultura,huevos,118,unidades,Daniel,registro normal
+2026-05-19,avicultura,huevos,121,unidades,Daniel,registro normal
+2026-05-20,avicultura,huevos,116,unidades,Daniel,registro normal
+2026-05-21,avicultura,huevos,124,unidades,Daniel,registro alto
+2026-05-22,avicultura,huevos,120,unidades,Daniel,registro normal
+2026-05-23,avicultura,huevos,119,unidades,Daniel,registro normal
+2026-05-24,avicultura,huevos,117,unidades,Daniel,registro normal
+2026-05-25,avicultura,huevos,130,unidades,Daniel,registro adicional
+2026-05-26,avicultura,huevos,125,unidades,Daniel,registro adicional

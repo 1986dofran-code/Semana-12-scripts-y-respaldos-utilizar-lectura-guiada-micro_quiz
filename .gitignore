@@ -1,0 +1,86 @@
+# ==========================================
+# .gitignore - Versión para estudiantes
+# Semana 12 - Scripts, respaldos y reportes
+# ==========================================
+
+# -------------------------------
+# Archivos y carpetas del docente
+# -------------------------------
+material_docente/
+GUIA_DOCENTE.md
+*CUESTIONARIO_Y_RESPUESTAS*
+*CUESTIONARIO*RESPUESTAS*
+*RESPUESTAS*
+*respuestas*
+*solucion*
+*SOLUCION*
+*solución*
+*SOLUCIÓN*
+RUBRICA_EVALUACION.md
+
+# Banco de preguntas de Moodle
+moodle/
+*.xml
+
+# -------------------------------
+# Carpetas de resultados generados
+# -------------------------------
+outputs/
+reportes/
+respaldos/
+logs/
+
+# -------------------------------
+# Configuración local del editor
+# -------------------------------
+.vscode/
+.idea/
+
+# -------------------------------
+# Archivos temporales de Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# -------------------------------
+# Archivos del sistema operativo
+# -------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------
+# Archivos temporales o generados
+# -------------------------------
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+
+# -------------------------------
+# Variables de entorno / seguridad
+# -------------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------------
+# Bases de datos locales
+# -------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------------
+# Pruebas que puedan revelar solución
+# -------------------------------
+tests/

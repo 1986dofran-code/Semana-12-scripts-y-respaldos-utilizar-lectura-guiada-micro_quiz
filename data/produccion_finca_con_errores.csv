@@ -1,0 +1,15 @@
+fecha,area,producto,cantidad,unidad,responsable,observacion
+2026-05-18,ganaderia,leche,22,litros,Laura,registro normal
+2026-05-19,ganaderia,leche,-5,litros,Laura,error intencional cantidad negativa
+2026-05-20,ganaderia,leche,,litros,Carlos,error intencional cantidad vacia
+2026-05-21,ganaderia,leche,24,litros,Carlos,registro normal
+2026-05-22,ganaderia,leche,abc,litros,Laura,error intencional texto en cantidad
+2026-05-23,ganaderia,leche,23,litros,Daniel,registro normal
+2026-05-24,ganaderia,leche,20,litros,Daniel,registro normal
+2026-05-18,agricultura,maiz,38,kilos,Ana,cosecha parcial
+2026-05-19,agricultura,maiz,42,kilos,Ana,cosecha normal
+2026-05-20,agricultura,maiz,-10,kilos,Pedro,error intencional cantidad negativa
+2026-05-21,agricultura,maiz,45,kilos,Pedro,cosecha alta
+2026-05-22,agricultura,maiz,39,kilos,Ana,cosecha normal
+2026-05-23,agricultura,maiz,44,kilos,Pedro,cosecha alta
+2026-05-24,agricultura,maiz,36,kilos,Ana,cosecha baja
