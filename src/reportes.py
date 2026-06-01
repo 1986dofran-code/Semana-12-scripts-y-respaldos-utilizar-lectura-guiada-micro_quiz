@@ -3,6 +3,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+from config import UMBRAL_BAJA_PRODUCCION, UMBRAL_ALTA_PRODUCCION
+
 Registro = Dict[str, object]
 
 
@@ -52,6 +54,7 @@ def crear_alertas(producto: str, indicadores: Dict[str, object]) -> List[str]:
     if minimo and promedio > 0:
         cantidad_minima = float(minimo["cantidad"])
         if cantidad_minima < promedio * 0.85:
+        if cantidad_minima < (promedio * UMBRAL_BAJA_PRODUCCION):
             alertas.append(
                 f"Alerta: {producto} tuvo una produccion baja el dia {minimo['fecha']} "
                 f"({cantidad_minima:.2f} {indicadores['unidad']})."
@@ -60,6 +63,7 @@ def crear_alertas(producto: str, indicadores: Dict[str, object]) -> List[str]:
     if maximo and promedio > 0:
         cantidad_maxima = float(maximo["cantidad"])
         if cantidad_maxima > promedio * 1.15:
+        if cantidad_maxima > (promedio * UMBRAL_ALTA_PRODUCCION):
             alertas.append(
                 f"Observacion: {producto} tuvo una produccion alta el dia {maximo['fecha']} "
                 f"({cantidad_maxima:.2f} {indicadores['unidad']})."
